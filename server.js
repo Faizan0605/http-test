@@ -35,3 +35,8 @@ const server = http.createServer((req, res) => {
         res.end('<h1>Page Not Found</h1>');
     }
 })
+
+
+server.listen(3000, () => {
+    console.log('Server is running and listening on http://localhost:3000');
+});
